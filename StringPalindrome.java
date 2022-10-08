@@ -6,10 +6,10 @@ Scanner sc = new Scanner(System.in);
 String s = "";
 String str= sc.nextLine();
 
-char arr[] = str.toCharArray();
+char CharArr[] = str.toCharArray();
 
-for(int i = arr.length-1;i>=0;i--){
-    s += arr[i];
+for(int i = CharArr.length-1;i>=0;i--){
+    s += CharArr[i];
 }
         if(s.equals(str)){
             System.out.println("it is a palindrome");

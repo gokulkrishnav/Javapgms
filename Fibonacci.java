@@ -7,7 +7,7 @@ public class Fibonacci {
         int x = 0, y = 1, z = 0, n;
         System.out.print("Enter the max value:");
         n = sc.nextInt();
-        while (z <= 10)
+        while (z <= n)
         {
             System.out.println(z);
             x = y;

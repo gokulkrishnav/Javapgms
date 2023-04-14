@@ -16,7 +16,7 @@ public class PrimeNumOrNot {
     }
 
     // Do a for loop
-    for (int i = 1; i <= n / 2; i++) {
+    for (int i = 1; i <= n / i; i++) {
       if (n % i == 0) {
         count++;
       }
